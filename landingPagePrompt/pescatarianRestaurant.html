@@ -11,33 +11,110 @@
     <title>Restaurant Landing Page</title>
   </head>
   <body>
-    <img src="http://www.lauraolsondesign.com/wp-content/uploads/2014/03/OTHlogo.png"> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <img src="http://www.lauraolsondesign.com/wp-content/uploads/2014/03/OTHlogo.png"> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    
+    
+    
+    
     <h1>Pesce Deluxe</h1>
     <p>Pesce Deluxe is a buffet catering to all who are interested in the pescatarian lifestyle, or similar. Our buffet will be opening soon Winter 2022 in the Southeast MI area. Sign up now for more updates by email!</p>
+ 
+
+   
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>If you are health conscious or just looking to become a “clean eater” at Pesce Deluxe you are guaranteed to shed a few pounds. We also have vegan friendly menu options because our goal is to strive for a healthy community one bite at a time.</p>
+        </div>
+        <div class="col">
+          <img src="https://media.istockphoto.com/photos/young-chef-holding-live-maine-lobster-sea-food-langoustine-picture-id1212419016?k=6&m=1212419016&s=170667a&w=0&h=yW82HLGPoCvFs6SE7536KsV4mqOjFsFRXlc9MXCmNto="
+        </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-med-6">
+          <p>Here at Pesce Deluxe you can get your main source of animal protein from fish and other seafoods.
+             We exclude meat and poultry! We carry wild-caught foods which are considered to be healthier and leaner. 
+             You will also find a variety of plant-based, dairy, and egg foods to your avail. 
+             Our sources are traceable, sustainable, and responsible. 
+             We are committed to providing healthy choices to the public.</p>
+        </div>
+        <div class="col-med-6">
+          <img src="https://3.bp.blogspot.com/-a9YVOycsrXE/WPWiwHPBTnI/AAAAAAAAQpI/X5o3bHvc4pwnQth5dRFnJQPHCsHZ7KAJACLcB/s1600/33981091491_3dfa0591b1_o.jpg"
+        </div>
+    </div>
     
-    <button>
-      <form>
-        <p>First Name</p>
-        <input type="text" name="firstName"> <br>
-        <p>Last Name</p>
-        <input type="text" name="lastName"> <br>
-        <p>Phone Number</p>
-        <input type="text" name="phoneNumber"> <br>
-        <p>Email</p>
-        <input type="text" name="email"> <br>
-        <p>Order</p>
-        <input type="text" name="order"> <br>
-      </form>
-    </button>
+    
+  
 
-    <p>If you are health conscious or just looking to become a “clean eater” at Pesce Deluxe you are guaranteed to shed a few pounds. We also have vegan friendly menu options because our goal is to strive for a healthy community one bite at a time.</p>
-    <img src="https://media.istockphoto.com/photos/young-chef-holding-live-maine-lobster-sea-food-langoustine-picture-id1212419016?k=6&m=1212419016&s=170667a&w=0&h=yW82HLGPoCvFs6SE7536KsV4mqOjFsFRXlc9MXCmNto="
+    <h3>Contact Form</h3>   
+    <form>
+      <p>First Name</p>
+      <input type="text" name="firstName"> <br>
+      <p>Last Name</p>
+      <input type="text" name="lastName"> <br>
+      <p>Address</p>
+      <input type="text" name="Address"> <br>
 
-    <p>Here at Pesce Deluxe you can get your main source of animal protein from fish and other seafoods. We exclude meat and poultry! We carry wild-caught foods which are considered to be healthier and leaner. You will also find a variety of plant-based, dairy, and egg foods to your avail. Our sources are traceable, sustainable, and responsible. We are committed to providing healthy choices to the public.</p>
-    <img src="https://3.bp.blogspot.com/-a9YVOycsrXE/WPWiwHPBTnI/AAAAAAAAQpI/X5o3bHvc4pwnQth5dRFnJQPHCsHZ7KAJACLcB/s1600/33981091491_3dfa0591b1_o.jpg"
-
-
-
+      <label for="Menu Items" class="text">Menu Items</label>
+      <input class="text" list="Menu Items" id="Menu Items" placeholder="Click to Choose">
+      <datalist id="Menu Items">
+        <option value="Lobster Linguine- $22.50">
+        <option value="Scallop Kabobs- $10.29">
+        <option value="Grilled Shrimp Spinach Salad- $12.99">
+        <option value="Honey Glazed Baked Salmon- $19.99">
+        <option value="Fruit Bowl- $9.15">
+      </datalist>
+    </form>
 
 
 
